@@ -7,3 +7,15 @@ A tiny [AutoHotkey](https://www.autohotkey.com/) script that adds a **macOS-like
 - The window is only **minimized**, not closed
 - It stays visible in **Alt+Tab** and **Win+Tab** so you can bring it back easily
 
+## Run on Startup
+To make the script run automatically every time you log in:
+
+1. Press `Win + R`
+2. Type `shell:startup` and press Enter  
+   *(This opens your Startup folder)*
+3. Go to the folder where your `.ahk` script is saved
+4. Right-click your `.ahk` file → **Copy**
+5. Go back to the Startup folder → Right-click → **Paste shortcut**
+
+## Notes
+- This script uses `WinMinimize` instead of `WinHide` so windows remain visible in task switchers
